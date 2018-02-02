@@ -110,7 +110,7 @@ In the next section, we will focus on the \\(f\\)-divergence family of distances
 
 #### \\(f\\)-divergences
 <figure>
-  <img src="{{ site.img_path_blog_1 }}/BGAN/FD-1.png">
+  <img src="{{ site.img_path }}/BGAN/FD-1.png">
   	<figcaption>Fig 3. </figcaption>
 </figure>
 
@@ -130,7 +130,7 @@ This is the foundation of many generative learning algorithms.
 Consider the **convex conjugate** of \\(f\\), \\(\fdc\\) and a family of functions, \\(\SN\\). 
 
 <figure>
-  <img src="{{ site.img_path_blog_1 }}/BGAN/FD-2.png">
+  <img src="{{ site.img_path }}/BGAN/FD-2.png">
   	<figcaption>Fig 4.</figcaption>
 </figure>
 
@@ -154,7 +154,7 @@ $$ \realdens(x) = (\pd{\fdc}{\SN})(\SN^{\star}(x)) \gendens\_{\gparams}(x) $$
 
 <div class="figurecenter">
 	<figure>
-	  <img src="{{ site.img_path_blog_1 }}/BGAN/EL-1.png">
+	  <img src="{{ site.img_path }}/BGAN/EL-1.png">
 	  	<figcaption>Fig 5.</figcaption>
 	</figure>
 </div>
@@ -166,7 +166,7 @@ $$ \realdensest(x) = \frac{w(x)}{\beta} \gendens\_{\gparams}(x) $$
 
 <div class="figurecenter">
 	<figure>
-	  <img src="{{ site.img_path_blog_1 }}/BGAN/EL-2.png">
+	  <img src="{{ site.img_path }}/BGAN/EL-2.png">
 	  	<figcaption>Fig 6.</figcaption>
 	</figure>
 </div>
@@ -190,7 +190,7 @@ $$ \nabla\_{\gparams} \EE\_{\prior(z)}[\DV\_{KL}\left(\realcondt{x}{z} \middle |
 
 <div class="figurecenter">
 	<figure>
-	  <img src="{{ site.img_path_blog_1 }}/BGAN/VP.png">
+	  <img src="{{ site.img_path }}/BGAN/VP.png">
 	  	<figcaption>Fig 7. </figcaption>
 	</figure>
 </div>
