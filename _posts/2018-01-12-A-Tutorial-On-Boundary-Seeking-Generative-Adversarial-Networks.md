@@ -82,7 +82,7 @@ The goal of the generator is to find the parameters \\(\theta\\) to find the ind
 In essense, the generator is trained to fool the discriminator into thinking that the generated samples comes from the true distribution \\(\mathbb{P}\\). While, the discriminator, is trained to distiguish between the samples from \\(\mathbb{P}\\) and the samples from \\(\mathbb{Q}\_\theta\\).
 
 This can then be formalized as a minimax game:
-$$ \mathcal{V}(\mathbb{P}, \mathbb{Q}\_{\theta}, \mathbb{D}\_{\phi}) = \mathbb{E}\_{\mathbb{P}}[\log \mathbb{D}\_{\phi}(x)] + \mathbb{E}\_{h(z)}[\log(1 - \mathbb{D}\_{\phi}(\mathbb{G}(z))]$$
+$$ \mathcal{V}(\mathbb{P}, \mathbb{Q}_{\theta}, \mathbb{D}_{\phi}) = \mathbb{E}_{\mathbb{P}}[\log \mathbb{D}_{\phi}(x)] + \mathbb{E}_{h(z)}[\log(1 - \mathbb{D}_{\phi}(\mathbb{G}(z))]$$
 
 $$(\hat{\theta}, \hat{\phi}) = \argmin\_{\theta} \argmax\_{\phi} \mathcal{V}(\mathbb{P}, \mathbb{Q}\_{\theta}, \mathbb{D}\_{\phi}) $$
 
