@@ -1,0 +1,72 @@
+# Welcome to Jekyll!
+
+# Website settings
+title: APJACOB
+description: Apjacob's blog
+keywords: 
+baseurl:  /apjacob 
+url: https://apjacob.github.io/apjacob  # url should be 'http://<github_username>.github.io/homepage' as before
+# url: http://127.0.0.1:4000
+img_path: /apjacob/static/assets/img/blog  
+
+author:  
+  name: GitHub  
+  first_name: Athul Paul  
+  last_name: Jacob  
+  avatar: /static/assets/img/landing/avatar.jpg 
+  github_username: apjacob 
+  linkedin_id: apjacob 
+  facebook_username: apjacob0307  
+  scholar_userid: XT3E7RoAAAAJ
+  twitter_username:  
+  email:   apjacob@edu.uwaterloo.ca
+  cv:   
+  skill_icon1:
+    - name: icon-python
+    - name: icon-scala
+  skill_icon2:
+    - name: icon-shell
+    - name: icon-cplusplus
+  desc: I am a 3rd year undergraduate at the University Of Waterloo pursuing Computer Science, Combinatorics and Optimization as well as a visiting researcher at MILA under the supervision Prof. Yoshua Bengio. I am currently a Research Intern at Microsoft Research Montreal. The focus of my research is currently generative models and NLP.
+
+# comment
+# disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
+#   name: jalpc
+
+# analytics
+## google analytics
+ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
+  # id:
+
+## google optimize
+go:
+  # id:
+
+# ## growingIO
+# gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
+#   # id:
+
+## donation
+donation: off  # type 'on'/'off' to choice display donation button at post page or not
+
+## carousels
+index_carousel: on  # index page carousel switch
+blog_carousel: off  # blog page carousel switch
+
+# scss
+sass:
+  style: compressed
+
+# Build settings
+encoding: utf-8
+
+# other settings
+highlighter: rouge
+markdown: redcarpet
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+plugins:
+  - jekyll-gist
+
