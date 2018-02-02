@@ -11,7 +11,7 @@
     detail: Research Intern
     i18n: company_a_job
   icon: fa-plus-square
-  company-icon: /apjacob/static/assets/img/landing/msr.jpg
+  company-icon: /static/assets/img/landing/msr.jpg
   location: 
     detail: Montreal
     i18n: company_a_location
@@ -29,7 +29,7 @@
     detail: Visiting Researcher
     i18n: company_b_job
   icon: fa-plus-square
-  company-icon: /apjacob/static/assets/img/landing/mila.jpg
+  company-icon: /static/assets/img/landing/mila.jpg
   location: 
     detail: Montreal
     i18n: company_b_location
@@ -47,7 +47,7 @@
     detail: Data Scientist
     i18n: company_c_job
   icon: fa-plus-square
-  company-icon: /apjacob/static/assets/img/landing/pumpup.jpg
+  company-icon: /static/assets/img/landing/pumpup.jpg
   location: 
     detail: Toronto
     i18n: company_c_location
@@ -65,7 +65,7 @@
     detail: Data Scientist Intern
     i18n: company_d_job
   icon: fa-plus-square
-  company-icon: /apjacob/static/assets/img/landing/loblaw.jpg
+  company-icon: /static/assets/img/landing/loblaw.jpg
   location: 
     detail: Toronto
     i18n: company_d_location
@@ -83,7 +83,7 @@
     detail: Data Scientist
     i18n: company_e_job
   icon: fa-plus-square
-  company-icon: /apjacob/static/assets/img/landing/piinpoint.jpg
+  company-icon: /static/assets/img/landing/piinpoint.jpg
   location: 
     detail: Waterloo
     i18n: company_d_location
@@ -101,7 +101,7 @@
     detail: Researcher
     i18n: company_f_job
   icon: fa-plus-square
-  company-icon: /apjacob/static/assets/img/landing/iqc.png
+  company-icon: /static/assets/img/landing/iqc.png
   location: 
     detail: Waterloo
     i18n: company_f_location

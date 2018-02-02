@@ -67,7 +67,7 @@ This framework is powerful because it trains a generator without relying on an e
 We will give a brief overview of this framework.
 
 <figure>
-  <img src="{{ site.img_path_blog_1 }}/BGAN/GAN-IMG1.png">
+  <img src="{{ site.img_path }}/BGAN/GAN-IMG1.png">
   <figcaption>Fig 1.</figcaption>
 </figure>
 
@@ -94,7 +94,7 @@ With discrete variables, this is not true. For instance, consider using a step f
 
 ## **Probability Difference Measures**
 <figure>
-  <img src="{{ site.img_path_blog_1 }}/BGAN/Difference.png">
+  <img src="{{ site.img_path }}/BGAN/Difference.png">
   	<figcaption>Fig 2. </figcaption>
 </figure>
 
