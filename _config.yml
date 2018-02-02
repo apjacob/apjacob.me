@@ -7,7 +7,7 @@ keywords:
 baseurl: 
 url: http://apjacob.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000
-img_path: /apjacob/static/assets/img/blog  
+img_path: /static/assets/img/blog  
 
 author:  
   name: GitHub  
