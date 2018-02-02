@@ -4,8 +4,8 @@
 title: APJACOB
 description: Apjacob's blog
 keywords: 
-baseurl:  /apjacob 
-url: https://apjacob.github.io/apjacob  # url should be 'http://<github_username>.github.io/homepage' as before
+baseurl:  
+url: # url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000
 img_path: /apjacob/static/assets/img/blog  
 
