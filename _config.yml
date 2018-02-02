@@ -8,6 +8,7 @@ baseurl:
 url: http://apjacob.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
 # url: http://127.0.0.1:4000
 img_path: /static/assets/img/blog  
+img_path_blog_1: /static/assets/img/blog/BGAN/
 
 author:  
   name: GitHub  
