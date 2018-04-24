@@ -159,7 +159,7 @@ $$\DV_{\fd}(\realprob || \genprob_{\gparams})  \geq \EE_{\realprob}[\SNp(x)] - \
 
 
 ## **BGAN For Discrete Data**
-Now, we can proceed to show how BGAN can handle discrete data \\TODO
+Now, we can proceed to show how BGAN can handle discrete data
 
 #### Estimating The Likelihood Ratio
 
