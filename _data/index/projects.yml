@@ -1,3 +1,15 @@
+- name: Learning Hierarchical Structures On-The-Fly with a Recurrent-Recursive Model for Sequences
+  desc: <b>Athul Paul Jacob<sup>*</sup> </b>, Zhouhan Lin<sup>*</sup>, Alessandro Sordoni, Yoshua Bengio
+  img: /static/assets/img/landing/RRNet.jpg
+
+- name: Straight to the Tree - Constituency Parsing with Neural Syntactic Distance
+  desc: Yikang Shen<sup>*</sup>, Zhouhan Lin<sup>*</sup>, <b>Athul Paul Jacob</b>, Alessandro Sordoni, Aaron Courville, Yoshua Bengio
+  img: /static/assets/img/landing/STT.jpg
+
+- name: Boundary-seeking GANs - A new method for adversarial generation of discrete data
+  desc: Devon R Hjelm<sup>*</sup>, <b>Athul Paul Jacob<sup>*</sup></b>
+  img: /static/assets/img/landing/BGAN-blog.jpg
+
 - name: Boundary-Seeking Generative Adversarial Networks
   url: https://openreview.net/pdf?id=rkTS8lZAb
   desc: Devon R Hjelm<sup>*</sup>, <b>Athul Paul Jacob<sup>*</sup></b>, Adam Trischler, Gerry Che, Kyunghyun Cho, Yoshua Bengio 
