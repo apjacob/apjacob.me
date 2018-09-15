@@ -1,11 +1,29 @@
 - name:
+    detail: Facebook AI Research 
+    i18n: company_a1
+  desc:
+    detail: 
+    i18n: company_a_desc1
+  date:
+    detail: Sept. 2018 - Present
+    i18n: company_a_date1
+  job:
+    detail: Research Intern
+    i18n: company_a_job1
+  icon: fa-plus-square
+  company-icon: /static/assets/img/landing/fair.png
+  location: 
+    detail: New York City
+    i18n: company_a_location
+
+- name:
     detail: Microsoft Research
     i18n: company_a
   desc:
     detail: 
     i18n: company_a_desc
   date:
-    detail: Sept. 2017 - Present
+    detail: Sept. 2017 - Aug. 2018
     i18n: company_a_date
   job:
     detail: Research Intern
