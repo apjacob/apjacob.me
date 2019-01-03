@@ -5,7 +5,7 @@
     detail: 
     i18n: company_a_desc1
   date:
-    detail: Sept. 2018 - Present
+    detail: Sept. 2018 - Dec. 2018
     i18n: company_a_date1
   job:
     detail: Research Intern
@@ -35,7 +35,7 @@
     i18n: company_a_location
 
 - name:
-    detail: Montreal Institute For Learning Algorithms
+    detail: Mila
     i18n: company_b
   desc:
     detail: 

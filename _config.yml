@@ -27,8 +27,7 @@ author:
   skill_icon2:
     - name: icon-shell
     - name: icon-cplusplus
-  desc: I am a senior undergraduate at the University Of Waterloo pursuing Computer Science, Combinatorics and Optimization as well as a visiting researcher at MILA. I am currently a Research Intern at Facebook AI Research NY. I am supervised by Prof. Yoshua Bengio, Prof. Pascal Poupart, Prof. Kyunghyun Cho and Dr. Alessandro Sordoni. The focus of my research is primarily on generative models and NLP.
-
+  desc: I am a senior undergraduate at the University Of Waterloo pursuing Computer Science, Combinatorics and Optimization as well as a visiting researcher at Mila supervised by Prof. Yoshua Bengio and Prof. Pascal Poupart. During the fall of 2018, I was a research intern at Facebook AI Research (FAIR) NY mentored by Prof. Kyunghyun Cho. I have previously spent time at Microsoft Research (MSR) Montreal with Dr. Adam Trischler and Dr. Alessandro Sordoni. I am primarily interested in developing machine learning (ML) models that are capable of lifelong learning, few-shot learning, reasoning, and adaptive computation in the context of natural language, thereby enabling agents that understand conversations contextually and respond in a semantically consistent manner.
 # comment
 # disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
 #   name: jalpc
@@ -36,7 +35,7 @@ author:
 # analytics
 ## google analytics
 ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
-  # id:
+  id: UA-131687311-1
 
 ## google optimize
 go:
