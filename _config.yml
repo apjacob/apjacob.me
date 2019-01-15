@@ -1,8 +1,8 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: APJACOB
-description: Apjacob's blog
+title: Athul Paul Jacob
+description: Athul Paul Jacob's blog
 keywords: 
 baseurl: 
 url: http://apjacob.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
@@ -27,7 +27,7 @@ author:
   skill_icon2:
     - name: icon-shell
     - name: icon-cplusplus
-  desc: I am a senior undergraduate at the University Of Waterloo pursuing Computer Science, Combinatorics and Optimization as well as a visiting researcher at Mila supervised by Prof. Yoshua Bengio and Prof. Pascal Poupart. During the fall of 2018, I was a research intern at Facebook AI Research New York mentored by Prof. Kyunghyun Cho. I have previously spent time at Microsoft Research Montreal with Dr. Adam Trischler and Dr. Alessandro Sordoni. I am primarily interested in developing machine learning (ML) models that are capable of lifelong learning, few-shot learning, reasoning, and adaptive computation in the context of natural language.
+  desc: I am a senior undergraduate at the University Of Waterloo pursuing Computer Science, Combinatorics and Optimization advised by Prof. Pascal Poupart as well as a visiting researcher at Mila supervised by Prof. Yoshua Bengio. During the fall of 2018, I was a research intern at Facebook AI Research New York mentored by Prof. Kyunghyun Cho. I have previously spent time at Microsoft Research Montreal with Dr. Adam Trischler and Dr. Alessandro Sordoni. I am primarily interested in developing machine learning (ML) models that are capable of lifelong learning, few-shot learning, reasoning, and adaptive computation in the context of natural language.
 # comment
 # disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
 #   name: jalpc
