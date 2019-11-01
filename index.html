@@ -1,68 +1,171 @@
----
-layout: blog
-title: index
-permalink: /
----
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<div class="navbar-wrapper">
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-      <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#page-top" id="i18_title"><span data-i18n="website.title">{{ site.title }}</span></a>
-      </div>
-      <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav navbar-right" id="i18_navbar">
-          {% for section in site.data.landing %}
-          <li>
-            {% if section.page %}
-              <a class="page-scroll" href="{{ section.page}} ">
-            {% else %}
-              <a class="page-scroll" href="{{ section.id | prepend: '#'}} ">
-            {% endif %}
-              <span data-i18n="{{ section.i18n }}">{{ section.name }}</span>
-            </a>
-          </li>
-          {% endfor %}
-          {% for language in site.data.index.language %}
-          <li>
-            <a id="set_lang_{{ language.locale }}" class="btn btn-sm set_{{ language.locale }}" data-locale="{{ language.locale }}">
-              <img src="{{ language.flag | prepend: site.baseurl }}" height="16" width="16">
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </div>
-  </nav>
-</div>
-{% if site.index_carousel %}
-{% include carousel.html %}
-{% endif %}
+  <title>Athul Paul Jacob</title>
+  
+  <meta name="author" content="Athul Paul Jacob">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat+Bold" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="images/favicon.ico">
+</head>
 
-{% for section in site.data.landing %}
-{% assign loopindex = forloop.index | modulo: 2 %}
-<section id="{{ section.id }}" class="features {% if loopindex != 1 %} gray-section {% endif %} {{ section.css }}" style="margin-top: 0;">
-  {% include sections/{{section.tpl}} %}
-</section>
-{% endfor %}
-<style>
-iframe {
-  -moz-transform: scale(0.25, 0.25);
-  -webkit-transform: scale(0.25, 0.25);
-  -o-transform: scale(0.25, 0.25);
-  -ms-transform: scale(0.25, 0.25);
-  transform: scale(0.25, 0.25);
-  -moz-transform-origin: top left;
-  -webkit-transform-origin: top left;
-  -o-transform-origin: top left;
-  -ms-transform-origin: top left;
-  transform-origin: top left;
-}
-</style>
-<!-- <iframe src="https://www.maimemo.com/share/page/?uid=779139&pid=660" style="display: none;"></iframe> -->
+<body>
+
+  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <tr><td style="padding:2.5%;width:40%;max-width:40%"><img style="width:50%;max-width:50%" alt="profile photo" src="images/MIT-logo.svg" class="hoverZoomLink"></td></tr>
+    <tr style="padding:0px">
+      
+      <td style="padding:0px">
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <hr>
+          <tr style="padding:0px">
+            <td style="padding:2.5%;width:40%;max-width:40%"><img style="width:100%;max-width:100%" alt="profile photo" src="images/profile_pic_2.jpg" class="hoverZoomLink"></a>
+            </td>
+            <td style="padding:2.5%;width:63%;vertical-align:middle">
+              <p style="text-align:center">
+                <name>Athul Paul Jacob</name>
+              </p>
+              <p>I am a first-year Ph.D. student in AI, NLP and, cognitive science at <a href="https://www.csail.mit.edu/">MIT CSAIL</a>, advised by <a href="http://web.mit.edu/jda/www/">Jacob Andreas</a> and <a href="https://www.csail.mit.edu/">Joshua Tenenbaum</a>.</p>
+
+              <p>In 2019, I completed my bachelors in computer science, combinatorics and optimization at the <a href="https://uwaterloo.ca/">University of Waterloo</a>, where I was advised by <a href="https://vectorinstitute.ai/team/pascal-poupart/">Pascal Poupart</a>. From 2016 until 2018, I was also a visiting student researcher at <a href="https://mila.quebec/">Mila</a> where I worked under the supervision of <a href="https://mila.quebec/en/yoshua-bengio/">Yoshua Bengio</a>. 
+              </p>
+              <p>In the fall of 2018, I was a research intern at <a href="https://ai.facebook.com/">Facebook AI Research</a> supervised by <a href="http://www.kyunghyuncho.me/">Kyunghyun Cho</a>. I also previously worked as a research intern at <a href="https://www.microsoft.com/en-us/research/">Microsoft Research</a> in fall 2017 and winter 2018 with <a href="https://www.microsoft.com/en-us/research/people/alsordon/">Alessandro Sordoni</a> and <a href="https://www.microsoft.com/en-us/research/people/adtrisch/">Adam Trischler</a>.</p> 
+              
+              <p style="text-align:center">
+                <a href="mailto:apjacob@mit.edu">Email</a> &nbsp/&nbsp
+                <a href="https://scholar.google.ca/citations?user=XT3E7RoAAAAJ&hl=en">Google Scholar</a> &nbsp/&nbsp
+                <a href="http://www.linkedin.com/in/apjacob/"> LinkedIn </a>
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <hr>
+            <tr>
+            <td style="padding:20px;width:100%;vertical-align:middle">
+              <heading>Research</heading>
+              <p>
+                Current approaches to solving artificial intelligence falls short of human abilities in their capacity to learn rapidly and flexibly. My current research focuses on utilizing language in a grounded setting to tackle these challenges. My research therefore attempts to combine natural language processing, reinforcement learning and few-shot learning as well as ideas from cognitive psychology.
+              </p>  
+              <p>
+                Prior to joining <a href="http://www.mit.edu/">MIT</a>, my focus was primarily on generative modelling (generative adversarial networks, in particular), constituency parsing and neural networks. 
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+        
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <!-- <hr/> -->
+          <tr>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/1806.04168">
+                <papertitle>Straight to the Tree: Constituency Parsing with Neural Syntactic Distance</papertitle>
+              </a>
+              <br>
+              <a href="https://mila.quebec/en/person/yikang-shen/">Yikang Shen*</a>,
+              <a href="https://hantek.github.io/#">Zhouhan Lin*</a>,
+              <strong>Athul Paul Jacob</strong>,
+              <a href="https://www.microsoft.com/en-us/research/people/alsordon/">Alessandro Sordoni</a>, 
+              <a href="https://mila.quebec/en/person/aaron-courville/">Aaron Courville</a>,
+              <a href="https://mila.quebec/en/yoshua-bengio/">Yoshua Bengio</a>
+              <br>
+              <em>Association for Computational Linguistics (ACL)</em>, 2018 &nbsp <font color="red"><strong>(Oral Presentation)</strong></font>
+              <br>
+              <p></p>
+              <p>A novel constituency parsing scheme free from compounding errors, while being faster and easier to parallelize.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://www.aclweb.org/anthology/W18-3020/">
+                <papertitle>Learning Hierarchical Structures On-The-Fly with a Recurrent-Recursive Model for Sequences</papertitle>
+              </a>
+              <br>
+              <strong>Athul Paul Jacob*</strong>,
+              <a href="https://hantek.github.io/#">Zhouhan Lin*</a>,
+              <a href="https://www.microsoft.com/en-us/research/people/alsordon/">Alessandro Sordoni</a>, 
+              <a href="https://mila.quebec/en/yoshua-bengio/">Yoshua Bengio</a>
+              <br>
+              <em>Association for Computational Linguistics (ACL)</em>, 2018
+              <br>
+              <p></p>
+              <p>A hierarchical model for sequential data that learns a tree on-the-fly. The model adapts its structure and reuses recurrent weights in a recursive manner by creating adaptive skip-connections that ease the learning of long-term dependencies.</p>
+            </td>
+          </tr>
+
+
+          <tr>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/1702.08431">
+                <papertitle>Boundary-Seeking Generative Adversarial Networks</papertitle>
+              </a>
+              <br>
+              <a href="https://rdevon.github.io/">Devon Hjelm*</a>,
+              <strong>Athul Paul Jacob*</strong>,
+              <a href="https://scholar.google.com/citations?user=7b5tlJkAAAAJ&hl=en">Tong Che</a>,
+              <a href="https://www.microsoft.com/en-us/research/people/adtrisch/">Adam Trischler</a>,
+              <a href="http://www.kyunghyuncho.me/">Kyunghyun Cho</a>,
+              <a href="https://mila.quebec/en/yoshua-bengio/">Yoshua Bengio</a>
+              <br>
+              <em> International Conference on Learning Representations (ICLR)</em>, 2018
+              <br>
+              <p></p>
+              <p>A principled method for training generative adversarial networks on discrete data that uses the estimated difference measure from the discriminator to compute importance weights for generated samples, providing a policy gradient for training the generator of the network.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="">
+                <papertitle>Joint Training in Generative Adversarial Networks</papertitle>
+              </a>
+              <br>
+              <a href="https://rdevon.github.io/">Devon Hjelm</a>,
+              <strong>Athul Paul Jacob</strong>,
+              <a href="https://mila.quebec/en/yoshua-bengio/">Yoshua Bengio</a>
+              <br>
+              <em>International Conference on Machine Learning (ICML)</em>, 2017
+              <br>
+              <p></p>
+              <p>A generative adversarial network capable of jointly generating images and their labels.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/1612.02136">
+                <papertitle>Mode Regularized Generative Adversarial Networks</papertitle>
+              </a>
+              <br>
+              <a href="https://scholar.google.com/citations?user=7b5tlJkAAAAJ&hl=en">Tong Che*</a>,
+              <a href="http://yanran.li/about/">Yanran Li*</a>,
+              <strong>Athul Paul Jacob</strong>,
+              <a href="https://mila.quebec/en/yoshua-bengio/">Yoshua Bengio</a>,
+              <a href="https://www4.comp.polyu.edu.hk/~cswjli/">Wenjie Li</a>
+              <br>
+              <em> International Conference on Learning Representations (ICLR)</em>, 2017
+              <br>
+              <p></p>
+              <p>We introduce several ways of regularizing the GAN training objective, which can dramatically stabilize the training of these models.</p>
+            </td>
+          </tr>
+        </tbody></table>
+
+        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+            <td style="padding:0px">
+              <br>
+              <p style="text-align:right;font-size:small;">
+                Design courtesy of <a href="https://jonbarron.info/">Jon Barron</a>
+              </p>
+            </td>
+          </tr>
+        </tbody></table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
